@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   width: 100%;
   margin: 0;
@@ -43,7 +47,7 @@ section {
   max-width: 90%;
   border-radius: 16px;
   padding: 16px;
-  margin: auto;
+  margin: 20px auto;
 }
 #main-card {
   background: linear-gradient(
@@ -57,6 +61,12 @@ section {
 section.video {
   background: rgba(0, 0, 0, 0.9);
   text-align: center;
+  border: 1px dotted #ffffff;
+}
+section.video p.title {
+  font-family: "Days One", sans-serif;
+  font-size: 2rem;
+  font-style: italic;
 }
 section .content {
   width: calc((100% / 3) - 32px);
