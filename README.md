@@ -1,4 +1,4 @@
-# Escalab Tarea 2"
+# Escalab Tarea 2
 
 ## Sobre el proyecto
 
@@ -17,5 +17,13 @@ foo@bar:~$ git branch -M main
 foo@bar:~$ git remote add origin https://github.com/henrygf26/escalab-tarea-2.git
 foo@bar:~$ git push -u origin main
 foo@bar:~$ git switch -c dev
+foo@bar:~$ git push origin dev
+```
+
+Posterior a los cambios, se usaron los siguientes comandos:
+
+```sh
+foo@bar:~$ git add .
+foo@bar:~$ git commit -m "Comentario del cambio"
 foo@bar:~$ git push origin dev
 ```
