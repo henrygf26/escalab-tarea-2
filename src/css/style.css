@@ -1,0 +1,77 @@
+body {
+  width: 100%;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-image: url("../img/background.jpg");
+  color: white;
+}
+header {
+  height: 100px;
+  background: rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
+header #logo {
+  vertical-align: middle;
+  height: 98px;
+  padding: auto;
+}
+nav {
+  padding: 0;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 1rem 0;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  text-align: center;
+}
+nav li a {
+  color: white;
+  display: block;
+  text-decoration: none;
+  padding: 0.5em 1em;
+}
+nav li a:hover {
+  color: #ffe81f;
+}
+section {
+  max-width: 90%;
+  border-radius: 16px;
+  padding: 16px;
+  margin: auto;
+}
+#main-card {
+  background: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0.9) 50%,
+    rgba(0, 0, 255, 0.9) 50%
+  );
+  display: flex;
+  justify-content: space-around;
+}
+section.video {
+  background: rgba(0, 0, 0, 0.9);
+  text-align: center;
+}
+section .content {
+  width: calc((100% / 3) - 32px);
+  text-align: center;
+  margin: auto 0;
+}
+section .content img {
+  max-width: 100%;
+  max-height: 100%;
+}
+footer {
+  background: rgba(0, 0, 0, 0.8);
+  margin-top: 32px;
+  text-align: center;
+  height: 1rem;
+  color: #ffe81f;
+  font-weight: bold;
+}
